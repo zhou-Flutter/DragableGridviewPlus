@@ -8,7 +8,7 @@ DragableGridview[https://github.com/baoolong/DragableGridview](https://github.co
 
 
 
-<img width="38%" height="38%" src="https://raw.githubusercontent.com/OpenFlutter/PullToRefresh/master/demonstrationgif/20180821_094948.gif"/>
+<img width="38%" height="38%" src="https://github.com/zhou-Flutter/DragableGridviewPlus/blob/master/example/exp.gif"/>
 
 ## Usage
 
