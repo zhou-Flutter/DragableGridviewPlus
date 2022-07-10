@@ -17,9 +17,9 @@ Add this to your package's pubspec.yaml file:
 	dependencies:
 	  
     dragablegridview_flutter:
-    git:
-      url: https://github.com/zhou-Flutter/DragableGridviewPlus.git
-      ref: master
+      git:
+        url: https://github.com/zhou-Flutter/DragableGridviewPlus.git
+        ref: master
 	  
 Add it to your dart file:
 
