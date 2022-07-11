@@ -10,6 +10,8 @@ DragableGridview[https://github.com/baoolong/DragableGridview](https://github.co
 
 <img width="38%" height="38%" src="https://github.com/zhou-Flutter/DragableGridviewPlus/blob/master/example/exp.gif"/>
 
+图片不显示的话，使用特殊方式访问
+
 ## Usage
 
 Add this to your package's pubspec.yaml file:
@@ -272,6 +274,7 @@ And GridView dataBin must extends DragAbleGridViewBin ,Add it to your dataBin fi
     }
 
 
+wx:zxj824522911 qq:824522911
 ## Properties
 
 | properties         | type             | defaults             | description                       |
