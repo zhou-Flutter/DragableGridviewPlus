@@ -152,7 +152,7 @@ class DragAbleGridViewState<T extends DragAbleGridViewBin>
                             (widget.itemBins[drawIndex!].dragPointY)) *
                         animatevalue);
           } else {
-            //X轴移动 moveY 行
+            // Y轴移动 moveY 行
             var moveY = (drawIndex! / 4).floor() - (endPosition! / 4).floor();
             // X轴移动 moveX 列
             var moveX = -((drawIndex! - (4 * moveY)) - endPosition!);
@@ -694,18 +694,21 @@ class DragAbleGridViewState<T extends DragAbleGridViewBin>
     }
   }
 
+  //点击删除 tag
   @override
   void onTapDelete(int index) {
-    setState(() {
-      widget.itemBins[index].offstage = true;
-    });
-    startPosition = index;
-    endPosition = widget.itemBins.length - 1;
-    getWidgetsSize(widget.itemBins[index]);
+    if (!isRemoveItem) {
+      setState(() {
+        widget.itemBins[index].offstage = true;
+      });
+      startPosition = index;
+      endPosition = widget.itemBins.length - 1;
+      getWidgetsSize(widget.itemBins[index]);
 
-    isRemoveItem = true;
-    _future = controller!.forward();
-    widget.deleteIconClickListener!(index);
+      isRemoveItem = true;
+      _future = controller!.forward();
+      widget.deleteIconClickListener!(index);
+    }
   }
 
   ///外部使用EditSwitchController控制编辑状态
