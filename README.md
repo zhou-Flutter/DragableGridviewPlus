@@ -274,7 +274,6 @@ And GridView dataBin must extends DragAbleGridViewBin ,Add it to your dataBin fi
     }
 
 
-wx:zxj824522911 qq:824522911
 ## Properties
 
 | properties         | type             | defaults             | description                       |
@@ -314,3 +313,7 @@ wx:zxj824522911 qq:824522911
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
+	
+	
+
+wx:zxj824522911 qq:824522911
