@@ -3,6 +3,7 @@
 
 该插件基于DragableGridview 扩展, 支持空安全，添加了一些动画和一些功能，使用更自然,目的是适用于我自己的项目，如果不符合自己的项目的话，拉到本地自己进行定制化修改
 
+需要 添加和删除的轨迹动画 看这里[https://github.com/zhou-Flutter/DragableGridviewTag](https://github.com/zhou-Flutter/DragableGridviewTag)
 
 DragableGridview[https://github.com/baoolong/DragableGridview](https://github.com/baoolong/DragableGridview)
 
